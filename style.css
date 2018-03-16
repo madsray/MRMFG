@@ -52,7 +52,7 @@ p{
 h2{
   color: #fff;
 }
-img {
+.caro {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 333px;
   height: auto;
@@ -74,5 +74,11 @@ img {
   margin-top: 5%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+#first{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
 }
