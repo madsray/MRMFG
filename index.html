@@ -11,6 +11,7 @@
   crossorigin="anonymous"></script>
   <script src="app.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -18,7 +19,7 @@
     <ul>
       <li><a href="#">Contact</a></li>
       <li><a href="catalog/2017_Catalog.pdf" target="_blank">Catalog</a></li>
-      <li><a href="#">Products</a></li>
+      <li><a href="#products">Products</a></li>
       <li><a href="#home">Home</a></li>
     </ul>
   </nav>
@@ -49,30 +50,182 @@
   <div id="products">
     <h2>Our Products</h2>
     <div id="first">
-    <div>
+    <div class="btn btn-primary" data-toggle="modal" data-target="#nailmodal">
       <h3>Nail Plates</h3>
-      <img src="images/nail_plates.png">
+      <div class = "images"><span class="helper"></span><img src="images/nail_platestrans.png"></div>
     </div>
-    <div>
+    <!-- The Modal -->
+      <div class="modal fade" id="nailmodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Nail Plates</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Nail Plates are used to protect piping running in the walls of many types of construction projects. Our 16 guage Nail Plates are stamped from 16 guage CG quality steel.  Our Nail Plates can be manufactured in a wide range of sizes and hole punch patterns in order to accomodate any plumbing code requirement.  We manufacture many common sizes and are able to accommodate custom requests as well.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <div class="btn btn-primary" data-toggle="modal" data-target="#studmodal">
       <h3>Stud Guard</h3>
-      <img src="images/stud_guard.jpg">
+    <div class = "images"><span class="helper"></span><img src="images/stud_guardtrans.png"></div>
     </div>
-    <div>
+    <!-- The Modal -->
+      <div class="modal fade" id="studmodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Stud Guard</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+            Studguards are stamped from 16ga CQ quality steel. Studguards are manufactured to have two prongs at each end to allow them to be driven into wood construction material. Sudguards are typically 1.5" wide and 5" or 6" in length. Please call for custom sizes.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="btn btn-primary" data-toggle="modal" data-target="#shoesmodal">
       <h3>Stud Shoes</h3>
-      <img src="images/stud_shoe.jpg">
+    <div class = "images"> <span class="helper"></span> <img src="images/stud_shoetrans.png"></div>
     </div>
-    <div>
+
+    <!-- The Modal -->
+      <div class="modal fade" id="shoesmodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Stud Shoes</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Stud shoes are manufactured from 18 gauge CQ quality milled steel.  Stud shoes are manufactured to fit one, two, or three 2"x4" studs placed together along the 4" side. Stud shoes are used where it is necessary to notch a large opening in the stud.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    <div class="btn btn-primary" data-toggle="modal" data-target="#heatermodal">
       <h3>Water Heater Pans</h3>
-      <img src="images/PVC_pan.jpg">
+
+      <div class = "images"><span class="helper"></span><img src="images/PVC_pantrans.png"></div>
     </div>
-    <div>
+    <!-- The Modal -->
+      <div class="modal fade" id="heatermodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Water Heater Pans</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Water Heater Pans are made from heady duty 28 gauge galvanized steel. Pans can be made to custom sizes and can be made without drain or with steel, CPVC, or PVC drains.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    <div class="btn btn-primary" data-toggle="modal" data-target="#standsmodal">
       <h3>Water Heater Stands</h3>
-      <img src="images/water_heater.jpg">
+    <div class = "images"> <span class="helper"></span> <img src="images/water_heatertrans.png"></div>
     </div>
-    <div>
+    <!-- The Modal -->
+      <div class="modal fade" id="standsmodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Water Heating Stands</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+            Water Heater Stands are made from 18 gauge galvanized steel. Stands feature heavy duty cross baces that are designed for water heaters that are 52 gallons or smaller
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <div class="btn btn-primary" data-toggle="modal" data-target="#pipemodal">
       <h3>Pipe Strap</h3>
-      <img src="images/pipe_strap.jpg">
+    <div class = "images"> <span class="helper"></span><img src="images/pipe_straptrans.png"></div>
     </div>
+    <!-- The Modal -->
+      <div class="modal fade" id="pipemodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Pipe Strap</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+            Pipe Straps are made from 20 gauge galvanized steel. Pipe Straps feature 2 holes and are made to fit a range of pipe from 1/2” to 2"
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
 </div>
   </div>
   <div id="contact">
